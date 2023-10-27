@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(204, 204, 204);
+    background: radial-gradient(circle,
+            rgba(204, 204, 204, 1) 0%,
+            rgba(255, 255, 255, 1) 100%);
+}
+
+.content {
+    flex: 1;
+}
+
+.globalFooter {
+    background-color: #212529;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+#avis {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.accordion {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.accordion-button {
+    background-color: #F7F7F7;
+    color: rgb(0, 0, 0);
+    /* Couleur du texte sur le bouton */
+    padding: 30px;
+}
+
+.accordion-body {
+    color: rgb(0, 0, 0);
+}
+
+.accordion-item {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Couleur du bouton de l'accordéon lorsque l'état "aria-expanded" est "true" */
+.accordion-button[aria-expanded="true"] {
+
+    background-color: #F7F7F7;
+    color: rgb(0, 0, 0);
+    /* Couleur du texte sur le bouton */
+}
