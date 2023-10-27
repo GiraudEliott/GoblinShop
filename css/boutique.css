@@ -8,6 +8,10 @@ body {
             rgba(255, 255, 255, 1) 100%);
 }
 
+.nav-link {
+    white-space: nowrap;
+}
+
 .content {
     flex: 1;
 }
@@ -17,32 +21,34 @@ body {
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 20px;
     margin: 0px;
 }
 
 #carouselExample {
-    margin: 0 auto; /* Centre horizontalement le carousel */
-    width: 100%; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto;
+    /* Centre horizontalement le carousel */
+    width: 100%;
+    /* Ajustez la largeur selon vos besoins */
 }
 
-#avis{
+#avis {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-#imgPartenaire img{
+#imgPartenaire img {
 
     width: 100%;
 }
 
-.row{
+.row {
     height: 30%;
     padding: 30px;
 }

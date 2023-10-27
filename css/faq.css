@@ -8,6 +8,10 @@ body {
             rgba(255, 255, 255, 1) 100%);
 }
 
+.nav-link {
+    white-space: nowrap;
+}
+
 .content {
     flex: 1;
 }
@@ -25,7 +29,7 @@ h1 {
     text-align: center;
     padding: 20px;
     margin: 0px;
-    
+
 }
 
 #avis {

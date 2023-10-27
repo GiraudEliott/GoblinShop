@@ -8,6 +8,10 @@ body {
             rgba(255, 255, 255, 1) 100%);
 }
 
+.nav-link {
+    white-space: nowrap;
+}
+
 .content {
     flex: 1;
 }
@@ -28,10 +32,9 @@ h1 {
 }
 
 #carouselExample {
+    padding: 50px;
     margin: 0 auto;
-    /* Centre horizontalement le carousel */
     width: 100%;
-    /* Ajustez la largeur selon vos besoins */
 }
 
 #avis {

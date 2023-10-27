@@ -8,6 +8,10 @@ body {
             rgba(255, 255, 255, 1) 100%);
 }
 
+.nav-link {
+    white-space: nowrap;
+}
+
 .content {
     flex: 1;
 }
@@ -17,51 +21,53 @@ body {
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1{
+h1 {
     text-align: center;
     padding: 20px;
     margin: 20px;
 }
 
 #carouselExample {
-    margin: 0 auto; /* Centre horizontalement le carousel */
-    width: 100%; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto;
+    /* Centre horizontalement le carousel */
+    width: 100%;
+    /* Ajustez la largeur selon vos besoins */
 }
 
-#avis{
+#avis {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-#imgPartenaire img{
+#imgPartenaire img {
 
     width: 100%;
 }
 
-.row{
+.row {
     height: 30%;
 }
 
-.presentation{
+.presentation {
     padding-top: 20px;
 }
 
-.buttonContactFin{
+.buttonContactFin {
     text-align: center;
 }
 
-.formulaireContact{
+.formulaireContact {
     margin: 20px;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.192);
     border-radius: 10px;
 }
 
-.form-group{
+.form-group {
     margin-bottom: 20px;
     margin-top: 20px;
 }
