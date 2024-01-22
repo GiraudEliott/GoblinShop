@@ -2,10 +2,110 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(204, 204, 204);
-    background: radial-gradient(circle,
-            rgba(204, 204, 204, 1) 0%,
-            rgba(255, 255, 255, 1) 100%);
+    background: rgb(240, 240, 240);
+}
+
+/* DARK MODE */
+.dark-mode {
+    background: rgb(43, 43, 43);
+    color: white
+}
+
+.dark-mode .globalFooter {
+    background-color: #333333;
+    color: white;
+    border-top: 1px solid rgb(255, 255, 255);
+}
+
+.dark-mode .navbar {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode .navbar a {
+    color: white;
+}
+
+.dark-mode .navbar a:hover {
+    color: #a0a0a0;
+}
+
+.dark-mode .nav-link.active {
+    color: #a0a0a0;
+}
+
+.dark-mode .navbar img {
+    filter: invert(100%);
+}
+
+.dark-mode #imgPartenaire img {
+    filter: invert(100%);
+}
+
+.dark-mode .navbar {
+    border-bottom: 1px solid rgb(255, 255, 255)
+}
+
+.dark-mode .accordion-button {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode .accordion-body {
+    background-color: #414141;
+    color: white;
+}
+
+.dark-mode .accordion-item {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode .accordion-button[aria-expanded="true"] {
+    background-color: #181818;
+    color: white;
+}
+
+.dark-mode .accordion-button::after {
+    filter: invert(100%);
+}
+
+.dark-mode #toggleButton{
+    filter: invert(100%);
+}
+
+.dark-mode a{
+    color: white;
+}
+
+/* FIN DARK MODE */
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+}
+
+.accordion-button::after {
+    order: -1;
+    margin-left: 0;
+    margin-right:0.5em;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrows-angle-expand' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707'/%3E%3C/svg%3E");
+}
+
+.accordion-button[aria-expanded="true"]::after {
+
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-arrows-angle-expand' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707'/%3E%3C/svg%3E");
+}
+
+
+.navbar {
+    border-bottom: 1px solid rgb(0, 0, 0)
+}
+
+.globalFooter {
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
 .nav-link {
@@ -16,14 +116,11 @@ body {
     flex: 1;
 }
 
-.globalFooter {
-    background-color: #212529;
-    color: white;
-}
-
 a {
     text-decoration: none;
+    color: rgb(0, 0, 0);
 }
+
 
 h1 {
     text-align: center;

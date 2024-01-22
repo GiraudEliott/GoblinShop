@@ -2,10 +2,72 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: rgb(204, 204, 204);
-    background: radial-gradient(circle,
-            rgba(204, 204, 204, 1) 0%,
-            rgba(255, 255, 255, 1) 100%);
+    background: rgb(240, 240, 240);
+}
+
+/* DARK MODE */
+.dark-mode {
+    background: rgb(43, 43, 43);
+    color: white;
+}
+
+.dark-mode #avis .card {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode .globalFooter {
+    background-color: #333333;
+    color: white;
+    border-top: 1px solid rgb(255, 255, 255); /* Updated border-top thickness */
+}
+
+.dark-mode .navbar {
+    background-color: #333333;
+    color: white;
+}
+
+.dark-mode .navbar a {
+    color: white;
+}
+
+.dark-mode .navbar a:hover {
+    color: #a0a0a0;
+}
+
+.dark-mode .nav-link.active {
+    color: #a0a0a0;
+}
+
+.dark-mode .navbar img {
+    filter: invert(100%);
+}
+
+.dark-mode #imgPartenaire img {
+    filter: invert(100%);
+}
+
+.dark-mode .card{
+    background-color: #333333;
+    color: white;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+.dark-mode .navbar {
+    border-bottom: 1px solid rgb(255, 255, 255)
+}
+
+.dark-mode #toggleButton{
+    filter: invert(100%);
+}
+
+.dark-mode a{
+    color: white;
+}
+/* FIN DARK MODE */
+
+.navbar{
+    border-bottom: 1px solid rgb(0, 0, 0)
 }
 
 .nav-link {
@@ -17,13 +79,11 @@ body {
 }
 
 .globalFooter {
-    background-color: #212529;
-    color: white;
+    border-top: 1px solid rgb(0, 0, 0);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
-a {
-    text-decoration: none;
-}
 
 h1 {
     text-align: center;
@@ -32,10 +92,9 @@ h1 {
 }
 
 #carouselExample {
+    padding: 50px;
     margin: 0 auto;
-    /* Centre horizontalement le carousel */
     width: 100%;
-    /* Ajustez la largeur selon vos besoins */
 }
 
 #avis {
@@ -44,11 +103,14 @@ h1 {
 }
 
 #imgPartenaire img {
-
     width: 100%;
 }
 
 .row {
     height: 30%;
-    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
 }
