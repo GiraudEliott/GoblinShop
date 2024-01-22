@@ -201,6 +201,31 @@
             element.classList.toggle("dark-mode");
         }
     </script>
+
+    <script>
+        function toggleTheme() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+
+            var isDarkMode = element.classList.contains("dark-mode");
+            sessionStorage.setItem("darkMode", isDarkMode);
+        }
+
+        function applySavedTheme() {
+            var isDarkMode = sessionStorage.getItem("darkMode") === "true";
+            var element = document.body;
+
+            if (isDarkMode) {
+                element.classList.add("dark-mode");
+            } else {
+                element.classList.remove("dark-mode");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", applySavedTheme);
+
+        window.addEventListener("popstate", applySavedTheme);
+    </script>
 </body>
 
 </html>
