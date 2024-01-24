@@ -19,7 +19,8 @@ body {
 .dark-mode .globalFooter {
     background-color: #333333;
     color: white;
-    border-top: 1px solid rgb(255, 255, 255); /* Updated border-top thickness */
+    border-top: 1px solid rgb(255, 255, 255);
+    /* Updated border-top thickness */
 }
 
 .dark-mode .navbar {
@@ -47,7 +48,7 @@ body {
     filter: invert(100%);
 }
 
-.dark-mode .card{
+.dark-mode .card {
     background-color: #333333;
     color: white;
     border: 1px solid rgb(0, 0, 0)
@@ -57,16 +58,17 @@ body {
     border-bottom: 1px solid rgb(255, 255, 255)
 }
 
-.dark-mode #toggleButton{
+.dark-mode #toggleButton {
     filter: invert(100%);
 }
 
-.dark-mode a{
+.dark-mode a {
     color: white;
 }
+
 /* FIN DARK MODE */
 
-.navbar{
+.navbar {
     border-bottom: 1px solid rgb(0, 0, 0)
 }
 
@@ -114,3 +116,4 @@ a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
+

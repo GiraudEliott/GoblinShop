@@ -51,15 +51,17 @@ body {
     border-bottom: 1px solid rgb(255, 255, 255)
 }
 
-.dark-mode #toggleButton{
+.dark-mode #toggleButton {
     filter: invert(100%);
 }
 
-.dark-mode a{
+.dark-mode a {
     color: white;
 }
 
 /* FIN DARK MODE */
+
+
 
 .navbar {
     border-bottom: 1px solid rgb(0, 0, 0)
